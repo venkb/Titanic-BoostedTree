@@ -3,7 +3,7 @@ library(gbm)
 library(caret)
 library(mice)
 
-setwd('D:\\Venkat\\Villanova\\Data Science Projects\\Titanic - Boosted Tree')
+##Set the working directory to the folder where train and test csv are available
 dataset = read.csv('train.csv')
 
 #Select features of interest
